@@ -3,9 +3,11 @@
 A simple neural network implementation with one hidden layer. Activation functions like sigmiod, tanh, and ReLu are supported, and the RMSProp optimizer is used to carry out backpropagation. 
 
 ## Quick Links
-[Code](https://github.com/sshreyas999/Neural-Network-Implementation/blob/main/Neural%20Network%20Implementation%20using%20RMSProp.py)
-[Data](https://github.com/sshreyas999/Neural-Network-Implementation/blob/main/heart_failure_clinical_records_dataset.csv)
-[Output File - Logs, Proofs & Analysis](https://github.com/sshreyas999/Neural-Network-Implementation/blob/main/Neural%20Network%20Implementation%20-%20Metrics%2C%20Plots%20%26%20Proofs.pdf). 
+1. [Code](https://github.com/sshreyas999/Neural-Network-Implementation/blob/main/Neural%20Network%20Implementation%20using%20RMSProp.py)  
+
+2. [Data](https://github.com/sshreyas999/Neural-Network-Implementation/blob/main/heart_failure_clinical_records_dataset.csv)  
+
+3. [Report - Logs, Proofs & Analysis](https://github.com/sshreyas999/Neural-Network-Implementation/blob/main/Neural%20Network%20Implementation%20-%20Metrics%2C%20Plots%20%26%20Proofs.pdf). 
 
 ## Prerequisites
 
@@ -21,7 +23,7 @@ Breakdown of classes:
 
 2. The **NeuralNet** class is responsible for learning using a given activation function (sigmoid, tanh, or ReLu), and an added optimization of RMSProp. It performs all the computations for learning and also calculates and stores metrics.
 
-3. The **modelComparer** class takes in different sets of parameters and trains the model repeatedly. It stores all the metrics so that we can compare and take a look at which model is the best. The code for this has also been commented out since it takes a while to run. The results are included in the log file.
+3. The **modelComparer** class takes in different sets of parameters and trains the model repeatedly. It stores all the metrics so that we can compare and take a look at which model is the best. The code for this has also been commented out since it takes a while to run. The results are included in the report. There is an option to write the different model metrics to an excel file. An example can be found [here](https://github.com/sshreyas999/Neural-Network-Implementation/blob/main/modelComparision.xlsx).
 
 ## Dataset
 
@@ -31,4 +33,4 @@ The main goal is to predict the proabability of heart failure, encoded as **DEAT
 
 ## Analysis & Derivations
 
-Apart from the **modelComparer** class in the code, a separate analysis has been carried out with the Heart Failure dataset. Multiple trials have been conducted and documented in the output file. A thorough explanation of the optimizer is also provided in the output file which can be found [here](https://github.com/sshreyas999/Neural-Network-Implementation/blob/main/Neural%20Network%20Implementation%20-%20Metrics%2C%20Plots%20%26%20Proofs.pdf).
+Apart from the **modelComparer** class in the code, a separate analysis has been carried out with the Heart Failure dataset. Multiple trials have been conducted and documented in the report. A thorough explanation of the optimizer is also provided in the report which can be found [here](https://github.com/sshreyas999/Neural-Network-Implementation/blob/main/Neural%20Network%20Implementation%20-%20Metrics%2C%20Plots%20%26%20Proofs.pdf).
