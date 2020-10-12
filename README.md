@@ -31,6 +31,6 @@ The dataset is hosted on S3, but can also be found [here](https://github.com/ssh
 
 The main goal is to predict the proabability of heart failure, encoded as **DEATH_EVENT**. There are 299 observations with 13 attributes per observation. Kindly note that this is only one example that is used to demonstrate the implementation. Other datasets can be loaded via the dataManager class.
 
-## Analysis & Derivations
+## Results
 
 Apart from the **modelComparer** class in the code, a separate analysis has been carried out with the Heart Failure dataset. Multiple trials have been conducted and documented in the report. A thorough explanation of the optimizer is also provided in the report which can be found [here](https://github.com/sshreyas999/Neural-Network-Implementation/blob/main/Neural%20Network%20Implementation%20-%20Metrics%2C%20Plots%20%26%20Proofs.pdf).
